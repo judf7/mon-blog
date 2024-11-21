@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+/* ----------la navBar */
+.collapse.navbar-collapse{
+  padding: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar-nav{
+  justify-content: center;
+
+}
+a.nav-link {
+margin: 0 50% 0 50%;
+
+}
+/* ---------le titre */
+.title {
+  width: 100%;
+}
+
+p.text {
+  background: url("../src/assets/rose.jfif");
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 8rem;
+  font-weight: 800;
+  text-align: center;
+  background-position: center;
+}
+
+.alert{
+  text-align: center;
+}
+
+/* --------la page d'accueil */
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentation {
+  text-align: center;
+  margin: 5%;
+  font-size: 1.1rem;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 30%;
+}
+
+/* le dernier article sur l'accueil */
+.cardLastArticle {
+  width: 30%;
+  margin: 6% auto;
+  border: 1px rgba(0, 0, 0, 0.335) solid;
+  padding: 20px;
+}
+.card-header-LastArticle{
+  text-align: center;
+}
+.card-body-LastArticle{
+  max-width: 100%;
+  text-align: center;
+}
+.card-title-LastArticle{
+  margin: 15px 0 5px 0;
+}
+
+/*les articles*/
+
+.articleContainer{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  
+}
+
+.cardArticles{
+width: 30%;
+margin: 15px;
+text-align: center;
+}
+
+img.card-img{
+  min-width: 100%;
+  margin-bottom: 5px;
+  height: 250px;
+}
+
+
+
+/* page detaillant l'article */
+.btnReturnArt{
+  margin: 20px;
+}
+.articleDetail{
+  min-width: 80%;
+  text-align: center;
+}
+
+.articleDetail h1 {
+  font-size:5rem;
+  margin-bottom: 5%;
+}
+
+.detailContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 100%;
+}
+.detailArticle{
+  font-size: 1.5rem;
+}
+
+.articleDetail img {
+width: 30%;
+border-radius: 8%;
+margin: auto;
+}
+.articleDetail p {
+  width: 50%;
+  margin: auto;
+  }
+  .dateDetail{
+    text-align: right;
+    margin-right: 5%;
+    padding-bottom: 10px;
+  }
+  .btn-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+
+  }
+
+
+/* la page contact */
+
+.titleContact{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.formulaire{
+  width: 100%;
+  margin-top: 10%;
+  
+}
+form{
+  margin: auto;
+  width: 35%;
+  text-align: center;
+}
+.form-label{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.form-control{
+  border: none;
+  background-color: rgb(228, 223, 223);
+}
+
+  /* couleur du texte */
+  .colorRed{
+    color: red;
+  }
